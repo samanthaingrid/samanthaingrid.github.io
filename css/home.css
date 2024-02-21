@@ -11,10 +11,10 @@ body {
 
 .header {
   grid-area: header;
-  background-image: url(Copy\ of\ SamanthaIngrid_Portfolio2023\ \(500\ x\ 100\ px\).png);
-  background-size: cover;
-  padding: 30px;
-  height: 200px;
+}
+.head{
+  width: 100%;
+  height: 100%;
 }
 
 .grid-container {
@@ -134,12 +134,12 @@ h3{
 }
 
 @media only screen and (max-width:600px) {
-  .header{
-  grid-area: header;
-  background-image: url(Copy\ of\ SamanthaIngrid_Portfolio2023\ \(500\ x\ 100\ px\).png);
-  background-size: cover;
-  padding: 30px;
-  height: 200px;
+  .header {
+    grid-area: header;
+  }
+  .head{
+    width: 100%;
+    height: 100%;
   }
   .grid-container {
     display: grid;
