@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Fira Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    font-size: larger;
+  }
+  
+  .header {
+    grid-area: header;
+    background-image: url(Copy\ of\ SamanthaIngrid_Portfolio2023\ \(500\ x\ 100\ px\).png);
+    background-size: cover;
+    padding: 30px;
+    height: 150px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header'
+      'nav nav nav nav nav nav'
+      'face face face about about about' 
+      'footer footer footer footer footer footer';
+  }
+  .nav{
+    background-color: rgb(223, 231, 245);
+    padding: 20px;
+    grid-area: nav;
+    justify-content: center;
+    display: flex;
+
+}
+.nav ul{
+    list-style-type: none;
+    padding: 1px;
+    text-align: center;
+    margin:0%;
+    font-size: 20px;
+    
+}
+.nav li{
+    float:right;
+    text-decoration:none;
+    list-style-type: none;
+}
+.nav li a{
+    display:float;
+    color:#081a52;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+}
+
+.nav li a:hover {
+  background-color:#7d8dc0;
+  color: rgb(255, 254, 254);
+        
+}  
+.nav .icon{
+  display:none;
+}
+  .face{
+    grid-area: face;
+    background-color: rgb(252, 255, 221);
+    padding: 10px;
+    text-align: center;
+  }
+  .face img{
+    width:300px;
+  
+
+  }
+  .about{
+      grid-area: about;
+      text-align: left;
+      background-color: rgb(252, 255, 221);
+      padding: 10px;
+  }
+  .about li{
+    margin-top: 50px;
+  }
+  .footer {
+    grid-area: footer;
+    background-color: rgb(223, 231, 245);
+    padding: 10px;
+    text-align: center;
+  }
+@media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+      'header header header header header header'
+      'nav nav nav nav nav nav'
+      'face face face about about about'
+      'footer footer footer footer footer footer';
+    }
+}
+@media only screen and (max-width:600px) {
+  .header {
+    grid-area: header;
+    background-image: url(Copy\ of\ SamanthaIngrid_Portfolio2023\ \(500\ x\ 100\ px\).png);
+    background-size: cover;
+    padding: 30px;
+    height: 150px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header'
+      'nav nav nav nav nav nav'
+      'face face face about about about' 
+      'footer footer footer footer footer footer';
+  }
+  .nav{
+    background-color: rgb(223, 231, 245);
+    padding: 20px;
+    grid-area: nav;
+    justify-content: center;
+    display: flex;
+
+}
+.nav ul{
+    list-style-type: none;
+    padding: 1px;
+    text-align: center;
+    margin:0%;
+    font-size: 20px;
+    
+}
+.nav li{
+    float:right;
+    text-decoration:none;
+    list-style-type: none;
+}
+.nav li a{
+    display:none;
+    color:#081a52;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+}
+
+.nav li a:hover {
+  background-color:#7d8dc0;
+  color: rgb(255, 254, 254);
+        
+}  
+.nav .icon{
+  display:block;
+}
+  .face{
+    grid-area: face;
+    background-color: rgb(252, 255, 221);
+    padding: 10px;
+    text-align: center;
+  }
+  .face img{
+    width:300px;
+
+  }
+  .about{
+      grid-area: about;
+      text-align: left;
+      background-color: rgb(252, 255, 221);
+      padding: 10px;
+  }
+  .about li{
+    margin-top: 50px;
+  }
+  .footer {
+    grid-area: footer;
+    background-color: rgb(223, 231, 245);
+    padding: 10px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav.responsive{
+    position: relative;
+    padding:5px
+  }
+  .nav.responsive .icon{
+    position: absolute;
+    right: 20;
+    top:8;
+  }
+  .nav.responsive a{
+    display: block;
+    padding: 10px;
+  }
+}
