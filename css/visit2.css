@@ -132,6 +132,7 @@ a{
     font-size: 20px;
     padding: 30px;
     text-align: justify;
+    font-weight:600;
 }
 .booth-details button{
     margin-bottom: 25px;
@@ -178,6 +179,7 @@ a{
     padding: 30px;
     text-align: justify;
     color: #6262a8;
+    font-weight:600;
 }
 .workshop-details button{
     margin-left: 25px;
@@ -323,6 +325,7 @@ a{
         justify-content: center;
         align-items: center;
         text-align: center;
+        color: #ffffff;
     }
     .nav_link .nav_icon:hover{
         color: #ffffff;
@@ -359,9 +362,6 @@ a{
 .workshop{
     padding: 100px 10px 0 10px;
     margin: 0;
-}
-.workshop img{
-    width: 190px;
 }
 .workshop-details h1{
     font-size: 25px;
@@ -461,12 +461,12 @@ a{
 }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
 .booth-details h1{
-    font-size: 20px;
+    font-size: 16px;
 }
 .booth-details p{
-    font-size: 8px;
+    font-size: 6px;
 }
 .booth img{
     width: 150px;
@@ -475,9 +475,47 @@ a{
     width: 150px;
 }
 .workshop-details h1{
-    font-size: 20px;
+    font-size: 16px;
 }
 .workshop-details p{
-    font-size: 8px;
+    font-size: 6px;
+}
+
+.text{
+    font-size: 10px;
+}
+.news-text{
+    font-size: 10px;
+}
+.input-group input{
+    width: 100px;
+
+}
+.wa,.ig {  
+    font-size:50%;
+    padding: 4px 7px 4px 7px;
+}
+.email{
+    font-size:48%;
+    padding: 4px 6px 4px 6px;
+}
+.workshop img, .booth img{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+}
+.input-group p{
+    margin:0;
+    padding-bottom: 15px;
+    text-align: justify center;
+    font-size: 6px;
+}
+.workshop-details button, .booth-details button {
+    font-size: 6px;
+    padding: 7px 8px 7px 8px;
+}
+.input-group button {
+ 
+    padding: 7px 10px 7px 10px;
 }
 }
