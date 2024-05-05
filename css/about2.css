@@ -276,7 +276,7 @@ a{
     padding: 0 45px 45px 50px;
     grid-area: footer;
     background-color: #bdbdf4;
-    background-image: url(footer.png);
+    background-image: url(images/footer.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
