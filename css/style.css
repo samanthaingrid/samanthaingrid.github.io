@@ -114,7 +114,7 @@ a{
 }
 .brand{
     grid-area: header;
-    background-image: url(header-2.jpg);
+    background-image: url(/images/header-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
