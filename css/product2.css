@@ -695,7 +695,7 @@ a{
     text-align: center;
 }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     .nav_link .nav_icon {
         float: none;
         display: block;
@@ -703,105 +703,119 @@ a{
         padding-left: 15px;
     }
     .plant-1 img{
-        padding:0;
-        margin:25px 0 0 95px;;
+        padding: 0;
+        padding-left: 60px;
+        padding-top: 15px;
+        margin: 0;
     }
     .plant-1 p{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
         font-size: 8px;
         text-align: justify;
         
     }
     .name-price1{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
     }
     .plant-1 button{
-        margin: 0 0 15px 160px;
+        margin: 0 0 15px 130px;
         padding: 8px;
     }
     .plant-2 img{
-        padding:0;
-        margin:25px 0 0 95px;;
+        padding: 0;
+        padding-left: 60px;
+        padding-top: 15px;
+        margin: 0;
     }
     .plant-2 p{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
         font-size: 8px;
         text-align: justify;
         
     }
     .name-price2{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
     }
     .plant-2 button{
-        margin: 0 0 15px 160px;
+        margin: 0 0 15px 130px;
         padding: 8px;
     }
     .plant-3 img{
-        padding:0;
-        margin:25px 0 0 95px;;
+        padding: 0;
+        padding-left: 60px;
+        padding-top: 15px;
+        margin: 0;
     }
     .plant-3 p{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
         font-size: 8px;
         text-align: justify;
         
     }
     .name-price3{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
     }
     .plant-3 button{
-        margin: 0 0 15px 160px;
+        margin: 0 0 15px 130px;
         padding: 8px;
     }
     .pot-1 img{
-        padding:0;
-        margin:25px 0 0 95px;;
+        padding: 0;
+        padding-left: 60px;
+        padding-top: 15px;
+        margin: 0;
     }
+
     .pot-1 p{
-        padding:0 90px 0 100px;
-        font-size: 8px;
-        text-align: justify;
+        padding:0 60px 0 60px;
+        font-size: 10px;
+        text-align: center;
         
     }
     .pot-price1{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
     }
+
     .pot-1 button{
-        margin: 0 0 15px 160px;
+        margin: 0 0 15px 130px;
         padding: 8px;
     }
     .pot-2 img{
-        padding:0;
-        margin:25px 0 0 95px;;
+        padding: 0;
+        padding-left: 60px;
+        padding-top: 15px;
+        margin: 0;
     }
     .pot-2 p{
-        padding:0 90px 0 100px;
-        font-size: 8px;
+        padding:0 60px 0 60px;
+        font-size: 10px;
         text-align: justify;
         
     }
     .pot-price2{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
     }
     .pot-2 button{
-        margin: 0 0 15px 160px;
+        margin: 0 0 15px 130px;
         padding: 8px;
     }
     .pot-3 img{
-        padding:0;
-        margin:25px 0 0 95px;
+        padding: 0;
+        padding-left: 60px;
+        padding-top: 15px;
+        margin: 0;
     }
     .pot-3 p{
-        padding:0 90px 0 100px;
-        font-size: 8px;
+        padding:0 60px 0 60px;
+        font-size: 10px;
         text-align: justify;
         
     }
     .pot-price3{
-        padding:0 90px 0 100px;
+        padding:0 60px 0 60px;
     }
     .pot-3 button{
-        margin: 0 0 15px 160px;
+        margin: 0 0 15px 130px;
         padding: 8px;
     }
 }
