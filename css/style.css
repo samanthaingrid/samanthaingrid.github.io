@@ -452,7 +452,7 @@ a{
         'step1 step1 step2 step2 step3 step3'
           ;
       }
-.header{
+      .header{
         width: 70%;
             display: inline-flex;
             position: absolute;
@@ -512,7 +512,7 @@ a{
         font-size: 10px;
     }
     .nav_link a::after{
-        margin-left: 10px;
+        margin-left: 0px;
 
     }
     .nav_cart{
