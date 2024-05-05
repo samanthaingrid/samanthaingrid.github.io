@@ -521,14 +521,14 @@ a{
     .brand-value2 img{
         width: 85%;
     }
-    .brand-value2, .brand-value3{
-        padding-top:68px;
-    }
-    .brand-value1{
-        padding-top: 60px;
-    }
-    .brand-value2{
+    .brand-value2 {
+        padding-top:45px;
         padding-left:20px;
     }
-    
+    .brand-value3{
+        padding-top: 40px;
+    }
+    .brand-value1{
+        padding-top: 35px;
+    }
 }
