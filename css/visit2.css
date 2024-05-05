@@ -285,13 +285,16 @@ a{
 
 @media screen and (max-width: 600px) {
 
-    .header{
+          .header{
         width: 70%;
             display: inline-flex;
             position: absolute;
             justify-content: space-between;
             padding: 0;
           }
+    .nav_logo{
+        grid-area: nav1;
+    }
     .nav_logo img{
             width:70px;
             align-items: center;
@@ -315,6 +318,7 @@ a{
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding-right: 30px;
     }
     
     .nav_link.responsive a.nav_icon {
@@ -325,9 +329,12 @@ a{
         justify-content: center;
         align-items: center;
         text-align: center;
+
+    }
+    .nav_link a:hover{
         color: #ffffff;
     }
-    .nav_link .nav_icon:hover{
+    .nav_link.responsive a:hover{
         color: #ffffff;
     }
     .nav_link.responsive a {
@@ -337,8 +344,12 @@ a{
         padding: 10px;
         font-size: 10px;
     }
+    .nav_link a::after{
+        margin-left: 0px;
+
+    }
     .nav_cart{
-        margin-right:0;
+        margin-right: 0;
     }
 .booth{
     padding: 100px 10px 0 10px;
