@@ -102,7 +102,7 @@ a{
     color: #ffffff;
 }
 .nav_link a:hover::after{
-    left: 50%;
+    left: 40%;
     opacity: 1;
 }
 
@@ -409,6 +409,7 @@ a{
         'pot2 pot2 pot2 pot2 pot2 pot2'
         'pot3 pot3 pot3 pot3 pot3 pot3'
         ;
+
     }
     .header{
         width: 70%;
@@ -443,6 +444,7 @@ a{
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding-right: 30px;
     }
     
     .nav_link.responsive a.nav_icon {
@@ -453,8 +455,12 @@ a{
         justify-content: center;
         align-items: center;
         text-align: center;
+
     }
-    .nav_link .nav_icon:hover{
+    .nav_link a:hover{
+        color: #ffffff;
+    }
+    .nav_link.responsive a:hover{
         color: #ffffff;
     }
     .nav_link.responsive a {
@@ -463,6 +469,10 @@ a{
         display: block;
         padding: 10px;
         font-size: 10px;
+    }
+    .nav_link a::after{
+        margin-left: 10px;
+
     }
     .nav_cart{
         margin-right: 0;
@@ -726,7 +736,7 @@ a{
     }
     .plant-2 img{
         padding: 0;
-        padding-left: 85px;
+        padding-left: 80px;
         padding-top: 15px;
         margin: 0;
     }
@@ -745,7 +755,7 @@ a{
     }
     .plant-3 img{
         padding: 0;
-        padding-left: 85px;
+        padding-left: 80px;
         padding-top: 15px;
         margin: 0;
     }
@@ -764,7 +774,7 @@ a{
     }
     .pot-1 img{
         padding: 0;
-        padding-left: 85px;
+        padding-left: 80px;
         padding-top: 15px;
         margin: 0;
     }
@@ -772,7 +782,7 @@ a{
     .pot-1 p{
         padding:0 60px 0 60px;
         font-size: 10px;
-        text-align: justify;
+        text-align: center;
         
     }
     .pot-price1{
@@ -785,7 +795,7 @@ a{
     }
     .pot-2 img{
         padding: 0;
-        padding-left: 85px;
+        padding-left: 80px;
         padding-top: 15px;
         margin: 0;
     }
@@ -804,7 +814,7 @@ a{
     }
     .pot-3 img{
         padding: 0;
-        padding-left: 85px;
+        padding-left: 80px;
         padding-top: 15px;
         margin: 0;
     }
