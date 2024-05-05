@@ -151,6 +151,7 @@ a{
 
 }
 .connectivity p{
+    font-weight:600;
     font-size: 23px;
     padding-right: 45px;
     text-align: justify;
@@ -198,6 +199,7 @@ a{
 
 }
 .aesthetic p{
+    font-weight:600;
     font-size: 23px;
     padding-left: 45px;
     text-align: justify;
@@ -245,6 +247,7 @@ a{
 
 }
 .sustainable p{
+    font-weight:600;
     font-size: 23px;
     padding-right: 45px;
     text-align: justify;
@@ -500,10 +503,10 @@ a{
         left: 42%;
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
     .banner h1{
     font-size: 20px;
-    padding: 25px 20px 0 20px;
+    padding: 25px 0 0 20px;
 
     }
     .banner img{
@@ -512,7 +515,7 @@ a{
         margin: 0;
     }
     .banner{
-        padding: 50px 50px 25px 20px;
+        padding: 50px 50px 25px 15px;
     }
     .connectivity h1{
         font-size: 20px;
@@ -527,31 +530,36 @@ a{
         font-size:8px;
     }
     .sustainable h1{
-        font-size: 20px;
+        font-size: 18px;
+        padding-right: 18px;
     }
     .sustainable p{
         font-size: 8px;
     }
     .brand h1{
-        top:147%;
-        left: 20%;
+        top:216%;
+        left: 15%;
         font-size: 20px;
         padding: 0;
     }
     .brand-value2 img{
         width: 85%;
     }
-    .brand-value1, .brand-value2, .brand-value3{
-        padding-top:50px;
+    .brand-value2, .brand-value3{
+        padding-top:68px;
+    }
+    .brand-value1{
+        padding-top: 60px;
     }
     .brand-value2{
         padding-left:20px;
     }
     .brand button{
-        top:153%;
+        top:226%;
         left: 42%;
     }
     .brand {
         width: 100%;
     }
+    
 }
