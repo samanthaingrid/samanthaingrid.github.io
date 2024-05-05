@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/999fa797e5.js" crossorigin="anonymous"></script>
+<script src="solair.js"></script>
+<title>Welcome to Solair</title>
+</head>
+
+<body>
+    <div class="up">
+        <a href="#">
+            <span class="fas fa-angle-up"></span>
+        </a>
+    </div>
+    <div class="grid-container">
+    <div class="header" id="header" style="width: 100%;">
+      <div class="nav_logo">
+      <a href="index.html"><img src ="logo.png"></a>
+</div>
+
+<div class="nav_link" id="nav">
+    <a href="javascript:void(0);" class="nav_icon" onclick="myFunction()">
+    <i class="fa fa-bars" id="menu-icon"> </i> </a>
+     <a href="index.html">HOME</a>
+     <a href="Product.html">PLANTS & POTS</a>
+     <a href="about.html">ABOUT US</a>
+     <a href="visit us.html">VISIT US</a>
+  </div>
+<div class="nav_cart">
+  <a href="cart.html">
+  <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #447604;"></i>
+</a>
+</div>
+</div>
+<div class="title"><h2>CART.</h2></div>
+<div class="cart">
+<div class="col-25">
+    <div class="container">
+    <div class="product1">
+      <img src="cart1.png">
+      <div class="detail">
+        <h3> Sukulen Haworthia </h3>
+        <p>A genus of small succulents known for their fleshy, often translucent leaves.</p>
+        <div class="add">
+          <h4> 1</h4>
+        </div>
+        <p>Rp 21.000</p>
+      </div>
+    </div>
+    <hr>
+    <div class="product1">
+        <img src="cart2.png">
+        <div class="detail">
+        <h3> Sola's Glide </h3>
+        <p> Hang them near a sunny window, and watch your plants thrive in their celestial embrace.</p>
+        <div class="add">
+        <h4> 1</h4>
+      </div>
+        <p>Rp 168.000</p>
+      </div>
+      </div>
+      <hr>
+      <h4>Total <span class="price" style="color:black"><b>Rp 189.000</b></span></h4>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+    
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Samantha Ingrid">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="sammy@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Jl. Raya Pasar Minggu No. Kav. 16">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Jakarta">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="DKI Jakarta">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="12110">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Samantha Ingrid">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2026">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+      </form>
+    </div>
+    <a href="thankyou.html"><button>CHECKOUT</button></a>
+  </div>
+  
+
+  
+
+</body>
+</html>
