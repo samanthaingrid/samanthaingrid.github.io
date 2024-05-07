@@ -109,6 +109,16 @@ a{
 .nav_cart{
     padding-right: 25px;
 }
+.nav_cart .badge {
+    font-size: small;
+    position: absolute;
+    top: 15px;
+    right:10px;
+    padding: 2px 7px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
 .kosong{
     grid-area:kosong;
 }
@@ -477,6 +487,10 @@ a{
     .nav_cart{
         margin-right: 0;
     }
+    .nav_cart .badge{
+        top:0
+      
+      }
     .brand img{
         width: 80%;
         padding-bottom: 5px;
