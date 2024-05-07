@@ -106,6 +106,16 @@ a{
 .nav_cart{
     padding-right: 25px;
 }
+.nav_cart .badge {
+    font-size: small;
+    position: absolute;
+    top: 15px;
+    right:10px;
+    padding: 2px 7px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
 .banner{
     grid-area: banner;
     background-color: #bdbdf4;
@@ -225,7 +235,7 @@ text-align: center;
     .grid-container {
         min-height: 100vh;
     }
-         .header{
+    .header{
         width: 70%;
             display: inline-flex;
             position: absolute;
@@ -288,6 +298,10 @@ text-align: center;
         margin-left: 0px;
 
     }
+    .nav_cart .badge{
+        top:0
+      
+      }
     .nav_cart{
         margin-right: 0;
     }
