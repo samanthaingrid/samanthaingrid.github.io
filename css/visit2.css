@@ -107,6 +107,16 @@ a{
 .nav_cart{
     padding-right: 25px;
 }
+.nav_cart .badge {
+    font-size: small;
+    position: absolute;
+    top: 15px;
+    right:10px;
+    padding: 2px 7px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
 .booth{
     background-color: #c8d87d;
     grid-area: booth;
@@ -132,11 +142,12 @@ a{
     font-size: 20px;
     padding: 30px;
     text-align: justify;
+    font-weight:600;
 }
 .booth-details button{
     margin-bottom: 25px;
     margin-left: 25px;
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 100%;
     border-color: #447604;
     background-color: #ffffff;
@@ -178,6 +189,7 @@ a{
     padding: 30px;
     text-align: justify;
     color: #6262a8;
+    font-weight:600;
 }
 .workshop-details button{
     margin-left: 25px;
@@ -349,6 +361,10 @@ a{
     .nav_cart{
         margin-right: 0;
     }
+    .nav_cart .badge{
+        top:0
+      
+      }
 .booth{
     padding: 100px 10px 0 10px;
     margin: 0;
